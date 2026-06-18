@@ -9,6 +9,7 @@ everything is linked together into a project-specific JDK. You can then just use
 The part of this I think is neatest is that dependencies can 
 bring both native libraries (without jank shims) and command-line tools if they are packaged as `jmod`s.
 
+I am sharing this to elicit feedback.
 
 ## Getting Started
 
@@ -61,5 +62,7 @@ not done yet.
   * The `did` and `handle` on the `<provider>` are related to this. Part of the idea is to separate publishing from a particular repository (though repositories could have downstream opinions on who is allowed to publish what.)
 * Dependencies are declared in the `jvm.xml` file.
 * You could also just add `.jvm/modules` as a library directory, but that wouldn't work for JMODs
-* A repository can be different than an index because modules are addressed by hashes. You could in principle fetch artifacts
+* A repository can be different from an index because modules are addressed by hashes. You could in principle fetch artifacts
 from places like IPFS.
+* I didn't actually push the JMOD javafx artifacts (though that would be a better demo)
+* Downloading the whole index every time isn't ideal but also works fine for me at this point.
