@@ -17,10 +17,11 @@
     <module provider="ethan-test.bsky.social" name="com.google.common" version="33.6.0-jre"/>
     <module provider="ethan-test.bsky.social" name="com.google.common.util.concurrent.internal" version="1.0.3"/>
     <module provider="ethan-test.bsky.social" name="com.github.benmanes.caffeine" version="3.2.4"/>
+    <module provider="ethan-test.bsky.social" name="org.apache.commons.io" version="2.20.0"/>
     <module provider="ethan-test.bsky.social" name="javafx.base" version="26.0.1"/>
     <module provider="ethan-test.bsky.social" name="javafx.graphics" version="26.0.1"/>
     <module provider="ethan-test.bsky.social" name="javafx.controls" version="26.0.1"/>
     <module provider="ethan-test.bsky.social" name="just" version="1.53.0"/>
     <module provider="ethan-test.bsky.social" name="migrate" version="3.5.0"/>
-    <module provider="ethan-test.bsky.social" name="org.apache.commons.io" version="2.20.0" />
+    <module provider="ethan-test.bsky.social" name="rife.bld" />
 </jvm>

@@ -50,6 +50,12 @@ jvm/bin/just compile
 jvm/bin/just run
 ```
 
+### Compiling via bld
+
+```
+jvm/bin/java @bld compile
+```
+
 ## Notes:
 
 * Right now the jar, xml file, etc. are called "jvm" - as in "jvm version manager." I don't know if that name is fine. 
